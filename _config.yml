@@ -1,5 +1,8 @@
 name: zvvn
 title: zvvn
+
+paginate: 10
+
 markdown: redcarpet
-pygments: true
 permalink: pretty
+pygments: true
