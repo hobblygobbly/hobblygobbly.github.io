@@ -11,5 +11,4 @@ Jekyll also offers powerful support for code snippets:
 
 `yes`
 
-
 Yep
