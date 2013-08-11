@@ -1,6 +1,8 @@
 ---
 layout: archive
 permalink: /archive/index.html
-title: Articles
+title: Archive
 tagline: A List of Posts
 ---
+
+## Archive
