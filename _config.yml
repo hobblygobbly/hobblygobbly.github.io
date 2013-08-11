@@ -1,0 +1,8 @@
+name: zvvn
+title: zvvn
+
+paginate: 5
+
+markdown: redcarpet
+permalink: pretty
+pygments: true
