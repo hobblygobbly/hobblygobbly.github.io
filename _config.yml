@@ -7,7 +7,7 @@ url:              http://hobblygobbly.co.vu
 # Owner/author information
 owner:
   name:           hobblygobbly
-  avatar:         
+  avatar:         avatar.jpg
   bio:            "Just a hobgoblin."
   email:          hobblygobbly(at)gmail(dot)com
   # Social networking links used in footer. Update and remove as you like.
@@ -33,7 +33,6 @@ bing_verify:
 links:
   - title: Sick Beard for Newshost
     url: /Sick-Beard
-    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Copenhagen
