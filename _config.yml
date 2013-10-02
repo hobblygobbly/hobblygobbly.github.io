@@ -7,13 +7,13 @@ url:              http://hobblygobbly.co.vu
 # Owner/author information
 owner:
   name:           hobblygobbly
-  avatar:         avatar.jpg
+  avatar:         
   bio:            "Just a hobgoblin."
   email:          hobblygobbly(at)gmail(dot)com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        http://twitter.com/hobblygobbly
+  twitter:        hobblygobbly
   facebook:       
-  github:         https://github.com/hobblygobbly
+  github:         hobblygobbly
   stackexchange:  
   linkedin:       
   instagram:      
@@ -31,10 +31,8 @@ bing_verify:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
+  - title: Sick Beard for Newshost
+    url: /Sick-Beard
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
