@@ -3,7 +3,7 @@ layout: post
 title: Build 501 out for Sick Beard for Newshost
 description: "Latest build merged."
 modified: 2013-10-10
-tags: [sick beard][newshost][build 501]
+tags: [sick beard, newshost, build 501]
 image:
   feature: abstract-3.jpg
   credit: dargadgetz
