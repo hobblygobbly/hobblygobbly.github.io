@@ -9,7 +9,7 @@ tags: [code syntax, highlighting]
 
 <p class="meta">26 December 2013</p>
 
-```
+{% highlight cpp linenos %}
 void DebugOutputSystem( Fartemis::Entity& a_entity ) {
     TransformComponent* transform = a_entity.RequestComponent< TransformComponent >();
     
@@ -17,4 +17,4 @@ void DebugOutputSystem( Fartemis::Entity& a_entity ) {
         std::cout << transform->x << ", " << transform->y << '\n';
     };
 };
-```
+{% endhighlight %}
