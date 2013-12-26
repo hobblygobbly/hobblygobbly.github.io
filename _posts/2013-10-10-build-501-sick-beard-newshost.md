@@ -4,7 +4,12 @@ title: Build 501 out for Sick Beard for Newshost
 tags: [sick beard, newshost, build 501]
 ---
 
-The latest buid, 501, has been merged with the version of Sick Beard for Newshost.
+{{ page.title }}
+================
+
+<p class="meta">10 October 2013</p>
+
+The latest build, 501, has been merged with the version of Sick Beard for Newshost.
 
 * [Project Page](http://hobblygobbly.co.vu/Sick-Beard/)
 * [Changelog](http://hobblygobbly.co.vu/Sick-Beard/changelog/)
