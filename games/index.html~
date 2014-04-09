@@ -1,0 +1,11 @@
+---
+layout: default
+title: hobblygobbly
+---
+
+<div id="games">
+  <h1>Games</h1>
+  <ul class="posts">
+
+  </ul>
+</div>
