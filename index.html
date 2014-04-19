@@ -1,5 +1,7 @@
 <html>
   <head>
+    <script type="text/javascript" src="http://blog.hobblygobbly.co.vu/api/read/json"></script>
+
     <style>
       @font-face
       {
@@ -52,9 +54,17 @@
           <div class="content"></div>
             <center><h1>hobbly<font color="#d95e40">gobbly</font></h1></center>
             </br>
-              <center><p>[ <a href="http://blog.hobblygobbly.co.vu/">Blog</a> | <a href="http://hobblygobbly.co.vu/Sick-Beard/">Sick Beard for Newshost</a> ]</p></center>
+              <center><p>[ <a href="http://blog.hobblygobbly.co.vu/">Blog</a> | <a href="http://hobblygobbly.co.vu/Sick-Beard">Sick Beard for Newshost</a> ]</p></center>
               </br>
-              <center><p><a href="http://twitter.com/hobblygobbly/">Twitter/@hobblygobbly</a> * <a href="http://github.com/hobblygobbly/">Github/hobblygobbly</a></p></center>
+            <script type="text/javascript">
+              document.write(
+                '<center><p><font color="#d95e40">Latest blog post</font> | ' + tumblr_api_read['posts'][0]['date'] + ' *> <a href="' + tumblr_api_read['posts'][0]['url'] + '">' + tumblr_api_read['posts'][0]['regular-title'] + '</a></p></center>'
+                );
+            </script>
+            </br>
+              <center><p><a href="#c">Twitter/@hobblygobbly</a> * <a href="#d">Github/hobblygobbly</a></p></center>
         </div>
+
+
       </body>
 </html>
