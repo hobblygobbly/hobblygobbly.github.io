@@ -1,19 +1,60 @@
----
-layout: default
-title: hobblygobbly
----
+<html>
+  <head>
+    <style>
+      @font-face
+      {
+        font-family: 'Minecraftia';
+        src: url('Minecraftia.ttf');
+      }
+      .wrapper
+      {
+        height: 100%;
+        display: table-cell;   
+        vertical-align: middle; 
+      }
+      .content
+      {
+        height: 50px;
+        width: 50px;
+      }
+      html, body 
+      {
+        height: 100%;
+      }
+      body 
+      {
+        display: table; 
+        margin: 0 auto;
+      }
+      p
+      {
+        font-family: 'Minecraftia';
+        font-size:22px;
+      }
+      h1
+      {
+        font-family: 'Minecraftia';
+      }
+      *
+      {
+        margin:0;padding:0;  
+      }
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h1>Interesting Talks/Presentations/Panels</h1>
-  <ul class="posts">
-    <li><span>02 Jan 2014</span> &raquo; <a href="http://www.youtube.com/watch?v=AJdEqssNZ-U">Jan Willem Nijman (Vlambeer) on gameplay "feel"</a></li>
-        <li><span>28 Dec 2013</span> &raquo; <a href="http://www.youtube.com/watch?v=ISutk1mauPM">Jonothan Blow on indie prototyping</a></li>
-  </ul>
-</div>
+      a:link {color:#000000; text-decoration:none;}      /* unvisited link */
+      a:visited {color:#000000; text-decoration:none;}  /* visited link */
+      a:hover {color:#d95e40; text-decoration:underline;}  /* mouse over link */
+      a:active {color:#000000; text-decoration:none;}  /* selected link */
+    </style>
+    <title>hobblygobbly - home</title>
+  </head>
+      <body>
+        <div class="wrapper">
+          <div class="content"></div>
+            <center><h1>hobbly<font color="#d95e40">gobbly</font></h1></center>
+            </br>
+              <center><p>[ <a href="http://blog.hobblygobbly.co.vu/">Blog</a> | <a href="http://hobblygobbly.co.vu/Sick-Beard">Sick Beard for Newshost</a> ]</p></center>
+              </br>
+              <center><p><a href="#c">Twitter/@hobblygobbly</a> * <a href="#d">Github/hobblygobbly</a></p></center>
+        </div>
+      </body>
+</html>
